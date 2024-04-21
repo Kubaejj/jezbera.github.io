@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <title>Bílí tygři Liberec</title>
+</head>
+
+
+<body class="scroll-target dark:bg-slate-900 bg-white bg-fixed background-gradient">
+    <header>
+        <nav class="bg-gray-300 dark:bg-gray-800 px-4 lg:px-6 py-2.5 md:px-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center mx-auto max-w-screen-xl">
+                <div class="flex items-center">
+                    <a href="#" class="flex items-center">
+                        <img src="../../img/logo.svg" class="mr-3 h-6 sm:h-9" alt="Logo" />
+                        <span class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">Bílí tygři
+                            Liberec</span>
+                    </a>
+                </div>
+                <div class="flex justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
+                    <ul class="flex flex-row mt-4 md:mt-0 font-medium lg:space-x-8">
+                        <!---->
+                    </ul>
+
+                    <button id="dropdownInformationButton" data-dropdown-toggle="dropdownInformation"
+                        class="mx-2 shadow-lg shadow-blue-600/100 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        type="button">Novinky<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 1 4 4 4-4" />
+                        </svg>
+                    </button>
+
+                    <!-- Dropdown menu -->
+                    <div id="dropdownInformation"
+                        class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+
+                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                            aria-labelledby="dropdownInformationButton">
+                            <li>
+                                <a href="#"
+                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Články</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Newsletter</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Podcast
+                                    nad(h)led</a>
+                            </li>
+                        </ul>
+                        <div class="py-2">
+                            <a href="#"
+                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign
+                                out</a>
+                        </div>
+                    </div>
+
+
+
+                    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
+                        class="shadow-lg shadow-blue-600/100 mx-4  text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        type="button">Tým <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 1 4 4 4-4" />
+                        </svg>
+                    </button>
+
+                    <!-- Dropdown menu -->
+                    <div id="dropdown"
+                        class="text-center  z-10 hidden  bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                            aria-labelledby="dropdownDefaultButton">
+                            <li>
+                                <a href="Tym/hraci.html"
+                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Soupiska</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Realizační
+                                    tým</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Změny
+                                    v kádru</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                    <button id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider"
+                        class="shadow-lg shadow-blue-600/100 mx-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        type="button">Klub <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 1 4 4 4-4" />
+                        </svg>
+                    </button>
+
+                    <!-- Dropdown menu -->
+                    <div id="dropdownDivider"
+                        class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                            aria-labelledby="dropdownDividerButton">
+                            <li>
+                                <a href="#"
+                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Informace
+                                    a kontakty</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Klub
+                                    legend</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Logo
+                                    manuál</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Média</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+                <div class="pt-6"></div>
+                <div class="order-2 md:order-3">
+                    <a href="https://www.ticketportal.cz/venue/Home-Credit-Arena" target="_blank"
+                        class="mx-5  px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded-full flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <span>Vstupenky</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="text-gray-600 text-2xl text-center mt-6  font-medium dark:text-white">Nejnovější zprávy </h1>
+    <main class="my-8">
+        <div class="container mx-auto px-6">
+            <div class="h-64 rounded-md overflow-hidden bg-cover bg-center"
+                style="background-image: url('https://images.unsplash.com/photo-1577655197620-704858b270ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1280&q=144')">
+                <div class="bg-gray-900 bg-opacity-50 flex items-center h-full">
+                    <div class="px-10 max-w-xl">
+                        <h2 class="text-2xl text-white font-semibold">???</h2>
+                        <p class="mt-2 text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+                            facere provident molestias ipsam sint voluptatum pariatur.</p>
+                        <button
+                            class="flex items-center mt-4 px-3 py-2 bg-blue-600 text-white text-sm uppercase font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                            <span>Čti více</span>
+                            <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                                <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="md:flex mt-8 md:-mx-4">
+                <div class="w-full h-64 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:w-1/2"
+                    style="background-image: url('https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80')">
+                    <div class="bg-gray-900 bg-opacity-50 flex items-center h-full">
+                        <div class="px-10 max-w-xl">
+                            <h2 class="text-2xl text-white font-semibold">??k</h2>
+                            <p class="mt-2 text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Tempore facere provident molestias ipsam sint voluptatum pariatur.</p>
+                            <button
+                                class="flex items-center mt-4 text-white text-sm uppercase font-medium rounded hover:underline focus:outline-none">
+                                <span>Čti více</span>
+                                <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full h-64 mt-8 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:mt-0 md:w-1/2"
+                    style="background-image: url('https://images.unsplash.com/photo-1486401899868-0e435ed85128?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')">
+                    <div class="bg-gray-900 bg-opacity-50 flex items-center h-full">
+                        <div class="px-10 max-w-xl">
+                            <h2 class="text-2xl text-white font-semibold">???</h2>
+                            <p class="mt-2 text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Tempore facere provident molestias ipsam sint voluptatum pariatur.</p>
+                            <button
+                                class="flex items-center mt-4 text-white text-sm uppercase font-medium rounded hover:underline focus:outline-none">
+                                <span>Čti</span>
+                                <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16">
+                <h3 class="text-gray-600 text-2xl text-center  font-medium dark:text-white">Žhavé Zprávy </h3>
+                <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
+                    <!---->
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-2xl  shadow-blue-600 overflow-hidden">
+                        <a href="#">
+                        <div class="flex items-end justify-end h-56 w-full bg-cover"
+                            style="background-image: url('../../img/news/klapka-gol.jpg')">
+                            
+                        </div>
+                            </a>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase dark:text-white">Adam Klapka</h3>
+                            <span class="text-gray-500 mt-2 dark:text-gray-400  ">$12</span>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-2xl  shadow-blue-600  overflow-hidden">
+                        <a href="#">
+                        <div class="flex items-end justify-end h-56 w-full bg-cover"
+
+                            style="background-image: url('../../img/news/mladi-news.jpg')">
+
+                        </div>
+                        </a>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase dark:text-white">Adam Klapka</h3>
+                            <span class="text-gray-500 mt-2 dark:text-gray-400  ">$12</span>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-2xl  shadow-blue-600 overflow-hidden ">
+                        <a href="#">
+                        <div class="flex items-end justify-end h-56 w-full bg-cover"
+                            style="background-image: url('../../img/news/news-zachar.jpg')">
+
+                        </div>
+                        </a>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase dark:text-white">Adam Klapka</h3>
+                            <span class="text-gray-500 mt-2 dark:text-gray-400  ">$12</span>
+                        </div>
+                    </div>
+                    
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
