@@ -26,11 +26,8 @@
 
 .hokejka:before {
     content: "\1f3d2";
-  }
+}
 
-  .zlata-medaile:before {
+.zlata-medaile:before {
     content: "\1f3c5";
-  }
-  .bobek:before {
-    content: "\1f4a9";
-  }
+}
