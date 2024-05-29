@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
 .justify {
     text-align: justify;
 }
@@ -19,6 +26,3 @@
     content: "\1f3c5";
 }
 
-.icon-profile:before {
-    content: "\1f64d";
-}
