@@ -2,6 +2,9 @@
 
 html{
     scroll-behavior: smooth;
+    animation-duration: 2000;
+
+
 }
 
 
@@ -25,4 +28,6 @@ html{
 .zlata-medaile:before {
     content: "\1f3c5";
 }
-
+.icon-profile:before {
+    content: "\1f64d";
+  }
