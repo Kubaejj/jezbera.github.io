@@ -19,12 +19,16 @@ html{
     font-weight: 400;
     font-style: normal;
 }
-
-
+.sipka:before {
+    content: "\279c";
+  }
 .hokejka:before {
     content: "\1f3d2";
 }
+.splneno:before {
+    content: "\2705";
 
+  }
 .zlata-medaile:before {
     content: "\1f3c5";
 }
