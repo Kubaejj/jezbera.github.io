@@ -14,146 +14,152 @@
 </head>
 
 
-<body class="scroll-target dark:bg-slate-900 bg-white bg-fixed background-gradient">
-    <header>
-        <nav class="bg-gray-300 dark:bg-gray-800 px-4 lg:px-6 py-2.5 md:px-auto">
-            <div class="flex flex-col md:flex-row justify-between items-center mx-auto max-w-screen-xl">
-                <div class="flex items-center">
-                    <a href="../index.html" class="flex items-center">
+<body class="scroll-target dark:bg-slate-900 bg-white bg-fixed background-gradient ">
 
-                        <img src="../img/logo.svg" class="mr-3 h-6 sm:h-9" alt="Logo" />
-                        <span class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white nadpis">Bílí
-                            tygři
-                            Liberec</span>
-                    </a>
-                </div>
-                <div class="flex justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
-                    <ul class="flex flex-row mt-4 md:mt-0 font-medium lg:space-x-8">
-                        <!---->
-                    </ul>
+    <header class=" rounded-md shadow dark:bg-slate-950 m-4">
+        <nav>
+            <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
 
-                    <button id="dropdownInformationButton" data-dropdown-toggle="dropdownInformation"
-                        class="mx-2 shadow-lg shadow-blue-600/100 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                        type="button">Novinky<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 1 4 4 4-4" />
-                        </svg>
-                    </button>
+                <div class="flex flex-col md:flex-row justify-between items-center mx-auto max-w-screen-xl">
+                    <div class="flex items-center">
+                        <a href="../index.html" class="flex items-center">
 
-                    <!-- Dropdown menu -->
-                    <div id="dropdownInformation"
-                        class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-
-                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
-                            aria-labelledby="dropdownInformationButton">
-                            <li>
-                                <a href="../novinky/List-novinek.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Články</a>
-                            </li>
-
-                            <li>
-                                <a href="https://open.spotify.com/show/1nWIIReIImBQf2qLsWRuvT?si=8c08ea7ea7674a9a&nd=1&dlsi=9b5c488bd583434f"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Podcast
-                                    nad(h)led</a>
-                            </li>
+                            <img src="../img/logo.svg" class="mr-3 h-6 sm:h-9" alt="Logo" />
+                            <span
+                                class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white nadpis">Bílí
+                                tygři
+                                Liberec</span>
+                        </a>
+                    </div>
+                    <div class="flex justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
+                        <ul class="flex flex-row mt-4 md:mt-0 font-medium lg:space-x-8">
+                            <!---->
                         </ul>
 
+                        <button id="dropdownInformationButton" data-dropdown-toggle="dropdownInformation"
+                            class="mx-2 shadow-lg shadow-blue-600/100 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            type="button">Novinky<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg>
+                        </button>
+
+                        <!-- Dropdown menu -->
+                        <div id="dropdownInformation"
+                            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                aria-labelledby="dropdownInformationButton">
+                                <li>
+                                    <a href="../novinky/List-novinek.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Články</a>
+                                </li>
+
+                                <li>
+                                    <a href="https://open.spotify.com/show/1nWIIReIImBQf2qLsWRuvT?si=8c08ea7ea7674a9a&nd=1&dlsi=9b5c488bd583434f"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Podcast
+                                        nad(h)led</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+
+
+                        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
+                            class="shadow-lg shadow-blue-600/100 mx-4  text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            type="button">Tým <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg>
+                        </button>
+
+                        <!-- Dropdown menu -->
+                        <div id="dropdown"
+                            class="text-center  z-10 hidden  bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                aria-labelledby="dropdownDefaultButton">
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Soupiska</a>
+                                </li>
+                                <li>
+                                    <a href="./realizacnitym.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Realizační
+                                        tým</a>
+                                </li>
+                                <li>
+                                    <a href="./zmenyVkadru.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Změny
+                                        v kádru</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <button id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider"
+                            class="shadow-lg shadow-blue-600/100 mx-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            type="button">Klub <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg>
+                        </button>
+
+                        <!-- Dropdown menu -->
+                        <div id="dropdownDivider"
+                            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                aria-labelledby="dropdownDividerButton">
+                                <li>
+                                    <a href="../klub/informace.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Informace
+                                        a kontakty</a>
+                                </li>
+                                <li>
+                                    <a href="../klub/klubLegend.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Klub
+                                        legend</a>
+                                </li>
+                                <li>
+                                    <a href="../klub/logoManual.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Logo
+                                        manuál</a>
+                                </li>
+                                <li>
+                                    <a href="../klub/media.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Média</a>
+                                </li>
+                                <li>
+                                    <a href="../klub/historie.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Historie</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+
+
+
+
+
                     </div>
-
-
-
-                    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
-                        class="shadow-lg shadow-blue-600/100 mx-4  text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                        type="button">Tým <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 1 4 4 4-4" />
-                        </svg>
-                    </button>
-
-                    <!-- Dropdown menu -->
-                    <div id="dropdown"
-                        class="text-center  z-10 hidden  bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
-                            aria-labelledby="dropdownDefaultButton">
-                            <li>
-                                <a href="#"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Soupiska</a>
-                            </li>
-                            <li>
-                                <a href="./realizacnitym.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Realizační
-                                    tým</a>
-                            </li>
-                            <li>
-                                <a href="./zmenyVkadru.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Změny
-                                    v kádru</a>
-                            </li>
-
-                        </ul>
+                    <div class="pt-6"></div>
+                    <div class="order-2 md:order-3">
+                        <a href="../vstupenky/vstupenky.html" target="_blank"
+                            class="mx-5  px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded-full flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Vstupenky</span>
+                        </a>
                     </div>
-                    <button id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider"
-                        class="shadow-lg shadow-blue-600/100 mx-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                        type="button">Klub <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 1 4 4 4-4" />
-                        </svg>
-                    </button>
-
-                    <!-- Dropdown menu -->
-                    <div id="dropdownDivider"
-                        class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
-                            aria-labelledby="dropdownDividerButton">
-                            <li>
-                                <a href="../klub/informace.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Informace
-                                    a kontakty</a>
-                            </li>
-                            <li>
-                                <a href="../klub/klubLegend.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Klub
-                                    legend</a>
-                            </li>
-                            <li>
-                                <a href="../klub/logoManual.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Logo
-                                    manuál</a>
-                            </li>
-                            <li>
-                                <a href="../klub/media.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Média</a>
-                            </li>
-                            <li>
-                                <a href="../klub/historie.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Historie</a>
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-
-
-
-
-
-
-                </div>
-                <div class="pt-6"></div>
-                <div class="order-2 md:order-3">
-                    <a href="../vstupenky/vstupenky.html" target="_blank"
-                        class="mx-5  px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded-full flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z"
-                                clip-rule="evenodd"></path>
-                        </svg>
-                        <span>Vstupenky</span>
-                    </a>
                 </div>
             </div>
         </nav>
@@ -307,374 +313,10 @@
             </section>
         </div>
         <div id="obranci">
-        <section class="mb-32 text-center lg:text-left">
-            <h2 class="mb-12 text-center text-3xl font-bold text-black dark:text-white">
-                Obránci
-            </h2>
-            <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3 xl:gap-x-12">
-                <!---->
-                <div class="mb-6 lg:mb-0">
-                    <div
-                        class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                        <div class="flex-row items-center lg:flex">
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                <img src="../img/tym/hraci/obranci/aubrecht-david.jpg"
-                                    class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                            </div>
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">David
-                                    Aubrecht
-                                </h5>
-                                <p class="mb-0 text-neutral-500 dark:text-neutral-300">#6
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Narozen: 8. 6. 2000
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    184 cm
-
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Váha: 90 kg
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-6 lg:mb-0">
-                    <div
-                        class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                        <div class="flex-row items-center lg:flex">
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                <img src="../img/tym/hraci/obranci/budik-vojtech.jpg"
-                                    class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                            </div>
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Vojtěch
-                                    Budík
-                                </h5>
-                                <p class="mb-0 text-neutral-500 dark:text-neutral-300">#49
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Narozen: 29. 1. 1998
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    185 cm
-
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Váha: 92 kg
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-6 lg:mb-0">
-                    <div
-                        class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                        <div class="flex-row items-center lg:flex">
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                <img src="../img/tym/hraci/obranci/derner-lukas.jpg"
-                                    class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                            </div>
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Lukáš Derner
-                                </h5>
-                                <p class="mb-0 text-neutral-500 dark:text-neutral-300">#17
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Narozen: 24. 8. 1983
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    185 cm
-
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Váha: 90 kg
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-6 lg:mb-0">
-                    <div
-                        class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                        <div class="flex-row items-center lg:flex">
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                <img src="../img/tym/hraci/obranci/galvas-tomas.jpg"
-                                    class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                            </div>
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Tomáš Galvas
-                                </h5>
-                                <p class="mb-0 text-neutral-500 dark:text-neutral-300">#79
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Narozen: 11. 2. 2006
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    177 cm
-
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Váha: 70 kg
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-6 lg:mb-0">
-                    <div
-                        class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                        <div class="flex-row items-center lg:flex">
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                <img src="../img/tym/hraci/obranci/ivan-michal.jpg"
-                                    class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                            </div>
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Ivan Michal
-                                </h5>
-                                <p class="mb-0 text-neutral-500 dark:text-neutral-300">#29
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Narozen: 18. 11. 1999
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    185 cm
-
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Váha: 82 kg
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-6 lg:mb-0">
-                    <div
-                        class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                        <div class="flex-row items-center lg:flex">
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                <img src="../img/tym/hraci/obranci/knot-ronald.jpg"
-                                    class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                            </div>
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Ronald Knot
-                                </h5>
-                                <p class="mb-0 text-neutral-500 dark:text-neutral-300">#3
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Narozen: 3. 8. 1994
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    193 cm
-
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Váha: 90 kg
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--UPDATE-->
-
-
-
-
-
-
-
-                <div class="mb-6 lg:mb-0">
-                    <div
-                        class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                        <div class="flex-row items-center lg:flex">
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                <img src="../img/tym/hraci/obranci/kolmann-petr.png"
-                                    class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                            </div>
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Petr Kolmann
-                                </h5>
-                                <p class="mb-0 text-neutral-500 dark:text-neutral-300">#59
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Narozen: 20. 9. 1988
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    190 cm
-
-
-
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Váha: 98 kg
-                                </p>
-
-                            </div>
-
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-6 lg:mb-0">
-                    <div
-                        class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                        <div class="flex-row items-center lg:flex">
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                <img src="../img/tym/hraci/obranci/kral-adam.jpg" class="mb-6 w-full rounded-md lg:mb-0"
-                                    alt="hrac" />
-                            </div>
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Adam Král
-                                </h5>
-                                <p class="mb-0 text-neutral-500 dark:text-neutral-300">#25
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Narozen: 8. 2. 2006
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    187 cm
-
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Váha: 82 kg
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-6 lg:mb-0">
-                    <div
-                        class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                        <div class="flex-row items-center lg:flex">
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                <img src="../img/tym/hraci/obranci/mccoshen-ian.jpg"
-                                    class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                            </div>
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Ian McCoshen
-                                </h5>
-                                <p class="mb-0 text-neutral-500 dark:text-neutral-300">#12
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Narozen: 5. 8. 1995
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    191 cm
-
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Váha: 99 kg
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mb-6 lg:mb-0">
-                    <div
-                        class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                        <div class="flex-row items-center lg:flex">
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                <img src="../img/tym/hraci/obranci/melancon-tj.jpg"
-                                    class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                            </div>
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">T.J.
-                                    Melancon
-                                </h5>
-                                <p class="mb-0 text-neutral-500 dark:text-neutral-300">#23
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Narozen: 4. 7. 1996
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    182 cm
-
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Váha: 88 kg
-
-
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-6 lg:mb-0">
-                    <div
-                        class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                        <div class="flex-row items-center lg:flex">
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                <img src="../img/tym/hraci/obranci/sedivy-jakub.jpg"
-                                    class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                            </div>
-                            <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Jakub Šedivý
-                                </h5>
-                                <p class="mb-0 text-neutral-500 dark:text-neutral-300">#22
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Narozen: 10. 5. 2003
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    185 cm
-
-
-                                </p>
-                                <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                    Váha: 87 kg
-
-
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        </div>
-        <div class="container my-24 mx-auto md:px-6">
-            <!-- Section: Design Block -->
-            <div id="utocnici">
             <section class="mb-32 text-center lg:text-left">
                 <h2 class="mb-12 text-center text-3xl font-bold text-black dark:text-white">
-                    Útočníci
+                    Obránci
                 </h2>
-
                 <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3 xl:gap-x-12">
                     <!---->
                     <div class="mb-6 lg:mb-0">
@@ -682,22 +324,23 @@
                             class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
                             <div class="flex-row items-center lg:flex">
                                 <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                    <img src="../img/tym/hraci/utocnici/birner-michal.jpg"
+                                    <img src="../img/tym/hraci/obranci/aubrecht-david.jpg"
                                         class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
                                 </div>
                                 <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Michal
-                                        Birner
-
+                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">David
+                                        Aubrecht
                                     </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#16
+                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#6
 
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 2. 3. 1986
+                                        Narozen: 8. 6. 2000
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        183 cm
+                                        184 cm
+
+
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
                                         Váha: 90 kg
@@ -712,22 +355,54 @@
                             class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
                             <div class="flex-row items-center lg:flex">
                                 <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                    <img src="../img/tym/hraci/utocnici/bulir-michal.jpg"
+                                    <img src="../img/tym/hraci/obranci/budik-vojtech.jpg"
                                         class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
                                 </div>
                                 <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200"> Michal
-                                        Bulíř
-
+                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Vojtěch
+                                        Budík
                                     </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#88
+                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#49
 
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 12. 8. 1991
+                                        Narozen: 29. 1. 1998
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        187 cm
+                                        185 cm
+
+
+                                    </p>
+                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                        Váha: 92 kg
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-6 lg:mb-0">
+                        <div
+                            class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                            <div class="flex-row items-center lg:flex">
+                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                    <img src="../img/tym/hraci/obranci/derner-lukas.jpg"
+                                        class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                </div>
+                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Lukáš
+                                        Derner
+                                    </h5>
+                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#17
+
+                                    </p>
+                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                        Narozen: 24. 8. 1983
+                                    </p>
+                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                        185 cm
+
+
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
                                         Váha: 90 kg
@@ -737,60 +412,59 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="mb-6 lg:mb-0">
                         <div
                             class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
                             <div class="flex-row items-center lg:flex">
                                 <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                    <img src="../img/tym/hraci/utocnici/dlouhy-adam.jpg"
+                                    <img src="../img/tym/hraci/obranci/galvas-tomas.jpg"
                                         class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
                                 </div>
                                 <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Adam
-                                        Dlouhý
-
+                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Tomáš
+                                        Galvas
                                     </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#15
+                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#79
 
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 29. 11. 1994
+                                        Narozen: 11. 2. 2006
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
                                         177 cm
 
+
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Váha: 86 kg
+                                        Váha: 70 kg
                                     </p>
 
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="mb-6 lg:mb-0">
                         <div
                             class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
                             <div class="flex-row items-center lg:flex">
                                 <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                    <img src="../img/tym/hraci/utocnici/fasko-rudas-martin.jpg"
+                                    <img src="../img/tym/hraci/obranci/ivan-michal.jpg"
                                         class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
                                 </div>
                                 <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Martin
-                                        Faško Rudáš
-
+                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Ivan
+                                        Michal
                                     </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#77
+                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#29
 
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 10. 8. 2000
+                                        Narozen: 18. 11. 1999
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        183 cm
+                                        185 cm
+
+
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
                                         Váha: 82 kg
@@ -800,48 +474,28 @@
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <div class="mb-6 lg:mb-0">
                         <div
                             class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
                             <div class="flex-row items-center lg:flex">
                                 <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                    <img src="../img/tym/hraci/utocnici/fasko-rudas-martin.jpg"
+                                    <img src="../img/tym/hraci/obranci/knot-ronald.jpg"
                                         class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
                                 </div>
                                 <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
-                                        Martin Faško Rudáš
-
+                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Ronald
+                                        Knot
                                     </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#16
+                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#3
 
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 2. 3. 1986
+                                        Narozen: 3. 8. 1994
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        183 cm
+                                        193 cm
+
+
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
                                         Váha: 90 kg
@@ -851,160 +505,13 @@
                             </div>
                         </div>
                     </div>
+                    <!--UPDATE-->
 
-                    <div class="mb-6 lg:mb-0">
-                        <div
-                            class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                            <div class="flex-row items-center lg:flex">
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                    <img src="../img/tym/hraci/utocnici/filippi-tomas.jpg"
-                                        class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                                </div>
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
-                                        Filippi Tomáš
 
-                                    </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#41
 
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 2. 3. 1986
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        183 cm
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Váha: 90 kg
-                                    </p>
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="mb-6 lg:mb-0">
-                        <div
-                            class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                            <div class="flex-row items-center lg:flex">
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                    <img src="../img/tym/hraci/utocnici/flynn-oscar.jpg"
-                                        class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                                </div>
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Flynn
-                                        Oscar
 
-                                    </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#16
-
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 2. 3. 1986
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        183 cm
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Váha: 90 kg
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-6 lg:mb-0">
-                        <div
-                            class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                            <div class="flex-row items-center lg:flex">
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                    <img src="../img/tym/hraci/utocnici/hawryluk-jayce.jpg"
-                                        class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                                </div>
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
-                                        Hawryluk Jayce
-
-                                    </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#8
-
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 2. 3. 1986
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        183 cm
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Váha: 90 kg
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-6 lg:mb-0">
-                        <div
-                            class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                            <div class="flex-row items-center lg:flex">
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                    <img src="../img/tym/hraci/utocnici/klima-kelly.jpg"
-                                        class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                                </div>
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
-                                        Kelly Klíma
-
-                                    </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#67
-
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 2. 3. 1986
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        183 cm
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Váha: 90 kg
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-6 lg:mb-0">
-                        <div
-                            class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                            <div class="flex-row items-center lg:flex">
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                    <img src="../img/tym/hraci/utocnici/mucha-miroslav.jpg"
-                                        class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                                </div>
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
-                                        Mucha Miroslav
-
-                                    </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#16
-
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 2. 3. 1986
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        183 cm
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Váha: 90 kg
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="mb-6 lg:mb-0">
                         <div
@@ -1015,21 +522,122 @@
                                         class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
                                 </div>
                                 <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
-                                        Musil Adam
-
+                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Petr
+                                        Kolmann
                                     </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#??
+                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#59
 
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 26. 3. 1997
+                                        Narozen: 20. 9. 1988
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        192 cm
+                                        190 cm
+
+
+
+
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Váha: 92 kg
+                                        Váha: 98 kg
+                                    </p>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-6 lg:mb-0">
+                        <div
+                            class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                            <div class="flex-row items-center lg:flex">
+                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                    <img src="../img/tym/hraci/obranci/kral-adam.jpg"
+                                        class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                </div>
+                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Adam
+                                        Král
+                                    </h5>
+                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#25
+
+                                    </p>
+                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                        Narozen: 8. 2. 2006
+                                    </p>
+                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                        187 cm
+
+
+                                    </p>
+                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                        Váha: 82 kg
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-6 lg:mb-0">
+                        <div
+                            class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                            <div class="flex-row items-center lg:flex">
+                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                    <img src="../img/tym/hraci/obranci/mccoshen-ian.jpg"
+                                        class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                </div>
+                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Ian
+                                        McCoshen
+                                    </h5>
+                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#12
+
+                                    </p>
+                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                        Narozen: 5. 8. 1995
+                                    </p>
+                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                        191 cm
+
+
+                                    </p>
+                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                        Váha: 99 kg
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-6 lg:mb-0">
+                        <div
+                            class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                            <div class="flex-row items-center lg:flex">
+                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                    <img src="../img/tym/hraci/obranci/melancon-tj.jpg"
+                                        class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                </div>
+                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">T.J.
+                                        Melancon
+                                    </h5>
+                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#23
+
+                                    </p>
+                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                        Narozen: 4. 7. 1996
+                                    </p>
+                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                        182 cm
+
+
+                                    </p>
+                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                        Váha: 88 kg
+
+
                                     </p>
 
                                 </div>
@@ -1042,164 +650,574 @@
                             class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
                             <div class="flex-row items-center lg:flex">
                                 <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                    <img src="../img/tym/hraci/utocnici/pekar-daniel.jpg"
+                                    <img src="../img/tym/hraci/obranci/sedivy-jakub.jpg"
                                         class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
                                 </div>
                                 <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
-                                        Pekař Daniel
+                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Jakub
+                                        Šedivý
                                     </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#24
+                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#22
 
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 2. 3. 1986
+                                        Narozen: 10. 5. 2003
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        183 cm
+                                        185 cm
+
+
                                     </p>
                                     <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Váha: 90 kg
+                                        Váha: 87 kg
+
+
                                     </p>
 
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="mb-6 lg:mb-0">
-                        <div
-                            class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                            <div class="flex-row items-center lg:flex">
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                    <img src="../img/tym/hraci/utocnici/perez-jaromir.jpg"
-                                        class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                                </div>
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
-                                        Peréz Jaromír
-
-                                    </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#13
-
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 2. 3. 1986
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        183 cm
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Váha: 90 kg
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="mb-6 lg:mb-0">
-                        <div
-                            class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                            <div class="flex-row items-center lg:flex">
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                    <img src="../img/tym/hraci/utocnici/rychlovsky-jakub.jpg"
-                                        class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                                </div>
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
-                                        Rychlovský Jakub
-
-                                    </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#18
-
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 2. 3. 1986
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        183 cm
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Váha: 90 kg
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-                    <div class="mb-6 lg:mb-0">
-                        <div
-                            class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                            <div class="flex-row items-center lg:flex">
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                    <img src="../img/tym/hraci/utocnici/vlach-jaroslav.jpg"
-                                        class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                                </div>
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
-                                        Vlach Jaroslav
-
-                                    </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#53
-
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 2. 3. 1986
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        183 cm
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Váha: 90 kg
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-6 lg:mb-0">
-                        <div
-                            class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
-                            <div class="flex-row items-center lg:flex">
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
-                                    <img src="../img/tym/hraci/utocnici/zachar-marek.jpg"
-                                        class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
-                                </div>
-                                <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-                                    <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
-                                        Zachar Marek
-
-                                    </h5>
-                                    <p class="mb-0 text-neutral-500 dark:text-neutral-300">#69
-
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Narozen: 2. 3. 1986
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        183 cm
-                                    </p>
-                                    <p class="mb-2 text-neutral-500 dark:text-neutral-300">
-                                        Váha: 90 kg
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
-
                 </div>
             </section>
+        </div>
+        <div class="container my-24 mx-auto md:px-6">
+            <!-- Section: Design Block -->
+            <div id="utocnici">
+                <section class="mb-32 text-center lg:text-left">
+                    <h2 class="mb-12 text-center text-3xl font-bold text-black dark:text-white">
+                        Útočníci
+                    </h2>
+
+                    <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3 xl:gap-x-12">
+                        <!---->
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/utocnici/birner-michal.jpg"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
+                                            Michal
+                                            Birner
+
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#16
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 2. 3. 1986
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            183 cm
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 90 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/utocnici/bulir-michal.jpg"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
+                                            Michal
+                                            Bulíř
+
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#88
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 12. 8. 1991
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            187 cm
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 90 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/utocnici/dlouhy-adam.jpg"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">Adam
+                                            Dlouhý
+
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#15
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 29. 11. 1994
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            177 cm
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 86 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/utocnici/fasko-rudas-martin.jpg"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
+                                            Martin
+                                            Faško Rudáš
+
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#77
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 10. 8. 2000
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            183 cm
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 82 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/utocnici/fasko-rudas-martin.jpg"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
+                                            Martin Faško Rudáš
+
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#16
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 2. 3. 1986
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            183 cm
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 90 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/utocnici/filippi-tomas.jpg"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
+                                            Filippi Tomáš
+
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#41
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 2. 3. 1986
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            183 cm
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 90 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/utocnici/flynn-oscar.jpg"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
+                                            Flynn
+                                            Oscar
+
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#16
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 2. 3. 1986
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            183 cm
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 90 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/utocnici/hawryluk-jayce.jpg"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
+                                            Hawryluk Jayce
+
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#8
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 2. 3. 1986
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            183 cm
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 90 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/utocnici/klima-kelly.jpg"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
+                                            Kelly Klíma
+
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#67
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 2. 3. 1986
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            183 cm
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 90 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/utocnici/mucha-miroslav.jpg"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
+                                            Mucha Miroslav
+
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#16
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 2. 3. 1986
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            183 cm
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 90 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/obranci/kolmann-petr.png"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
+                                            Musil Adam
+
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#??
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 26. 3. 1997
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            192 cm
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 92 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/utocnici/pekar-daniel.jpg"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
+                                            Pekař Daniel
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#24
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 2. 3. 1986
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            183 cm
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 90 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/utocnici/perez-jaromir.jpg"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
+                                            Peréz Jaromír
+
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#13
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 2. 3. 1986
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            183 cm
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 90 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/utocnici/rychlovsky-jakub.jpg"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
+                                            Rychlovský Jakub
+
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#18
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 2. 3. 1986
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            183 cm
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 90 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/utocnici/vlach-jaroslav.jpg"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
+                                            Vlach Jaroslav
+
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#53
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 2. 3. 1986
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            183 cm
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 90 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-6 lg:mb-0">
+                            <div
+                                class="relative block rounded-lg p-6 backdrop-blur-lg bg-gray-200/60 dark:bg-slate-800/60 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:rotate-6 ease-out duration-300">
+                                <div class="flex-row items-center lg:flex">
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-5/12 lg:pr-6">
+                                        <img src="../img/tym/hraci/utocnici/zachar-marek.jpg"
+                                            class="mb-6 w-full rounded-md lg:mb-0" alt="hrac" />
+                                    </div>
+                                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
+                                        <h5 class="mb-2 text-2xl  font-bold text-neutral-800 dark:text-neutral-200">
+                                            Zachar Marek
+
+                                        </h5>
+                                        <p class="mb-0 text-neutral-500 dark:text-neutral-300">#69
+
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Narozen: 2. 3. 1986
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            183 cm
+                                        </p>
+                                        <p class="mb-2 text-neutral-500 dark:text-neutral-300">
+                                            Váha: 90 kg
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </section>
             </div>
 
 
