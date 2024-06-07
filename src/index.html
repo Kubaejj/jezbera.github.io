@@ -20,154 +20,156 @@
     <header class=" rounded-md shadow dark:bg-slate-950 m-4">
         <nav>
             <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-         
-            <div class="flex flex-col md:flex-row justify-between items-center mx-auto max-w-screen-xl">
-                <div class="flex items-center">
-                    <a href="#" class="flex items-center">
-                        <img src="img/logo.svg" class="mr-3 h-6 sm:h-9" alt="Logo" />
-                        <span class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white nadpis">Bílí
-                            tygři
-                            Liberec</span>
-                    </a>
-                </div>
-                <div class="flex justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
-                    <ul class="flex flex-row mt-4 md:mt-0 font-medium lg:space-x-8">
-                        <!---->
-                    </ul>
 
-                    <button id="dropdownInformationButton" data-dropdown-toggle="dropdownInformation"
-                        class="mx-2 shadow-lg shadow-blue-600/100 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                        type="button">Novinky<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 1 4 4 4-4" />
-                        </svg>
-                    </button>
-
-                    <!-- Dropdown menu -->
-                    <div id="dropdownInformation"
-                        class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-
-                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
-                            aria-labelledby="dropdownInformationButton">
-                            <li>
-                                <a href="./novinky/List-novinek.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Články</a>
-                            </li>
-
-                            <li>
-                                <a href="https://open.spotify.com/show/1nWIIReIImBQf2qLsWRuvT?si=8c08ea7ea7674a9a&nd=1&dlsi=9b5c488bd583434f"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Podcast
-                                    nad(h)led</a>
-                            </li>
+                <div class="flex flex-col md:flex-row justify-between items-center mx-auto max-w-screen-xl">
+                    <div class="flex items-center">
+                        <a href="#" class="flex items-center">
+                            <img src="img/logo.svg" class="mr-3 h-6 sm:h-9" alt="Logo" />
+                            <span
+                                class="self-center text-3xl font-semibold whitespace-nowrap dark:text-white nadpis">Bílí
+                                tygři
+                                Liberec</span>
+                        </a>
+                    </div>
+                    <div class="flex justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
+                        <ul class="flex flex-row mt-4 md:mt-0 font-medium lg:space-x-8">
+                            <!---->
                         </ul>
 
+                        <button id="dropdownInformationButton" data-dropdown-toggle="dropdownInformation"
+                            class="mx-2 shadow-lg shadow-blue-600/100 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            type="button">Novinky<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg>
+                        </button>
+
+                        <!-- Dropdown menu -->
+                        <div id="dropdownInformation"
+                            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                aria-labelledby="dropdownInformationButton">
+                                <li>
+                                    <a href="./novinky/List-novinek.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Články</a>
+                                </li>
+
+                                <li>
+                                    <a href="https://open.spotify.com/show/1nWIIReIImBQf2qLsWRuvT?si=8c08ea7ea7674a9a&nd=1&dlsi=9b5c488bd583434f"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Podcast
+                                        nad(h)led</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+
+
+                        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
+                            class="shadow-lg shadow-blue-600/100 mx-4  text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            type="button">Tým <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg>
+                        </button>
+
+                        <!-- Dropdown menu -->
+                        <div id="dropdown"
+                            class="text-center  z-10 hidden  bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                aria-labelledby="dropdownDefaultButton">
+                                <li>
+                                    <a href="Tym/hraci.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Soupiska</a>
+                                </li>
+                                <li>
+                                    <a href="./tym/realizacnitym.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Realizační
+                                        tým</a>
+                                </li>
+                                <li>
+                                    <a href="./novinky/List-novinek.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Změny
+                                        v kádru</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <button id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider"
+                            class="shadow-lg shadow-blue-600/100 mx-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            type="button">Klub <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg>
+                        </button>
+
+                        <!-- Dropdown menu -->
+                        <div id="dropdownDivider"
+                            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                aria-labelledby="dropdownDividerButton">
+                                <li>
+                                    <a href="./klub/informace.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Informace
+                                        a kontakty</a>
+                                </li>
+                                <li>
+                                    <a href="./klub/klubLegend.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Klub
+                                        legend</a>
+                                </li>
+                                <li>
+                                    <a href="./klub/logoManual.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Logo
+                                        manuál</a>
+                                </li>
+                                <li>
+                                    <a href="./klub/media.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Média</a>
+                                </li>
+                                <li>
+                                    <a href="./klub/historie.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Historie</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     </div>
-
-
-
-                    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
-                        class="shadow-lg shadow-blue-600/100 mx-4  text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                        type="button">Tým <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 1 4 4 4-4" />
-                        </svg>
-                    </button>
-
-                    <!-- Dropdown menu -->
-                    <div id="dropdown"
-                        class="text-center  z-10 hidden  bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
-                            aria-labelledby="dropdownDefaultButton">
-                            <li>
-                                <a href="Tym/hraci.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Soupiska</a>
-                            </li>
-                            <li>
-                                <a href="./tym/realizacnitym.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Realizační
-                                    tým</a>
-                            </li>
-                            <li>
-                                <a href="./novinky/List-novinek.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Změny
-                                    v kádru</a>
-                            </li>
-
-                        </ul>
+                    <div class="pt-6"></div>
+                    <div class="order-2 md:order-3">
+                        <a href="./vstupenky/vstupenky.html" target="_blank"
+                            class="mx-5  px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded-full flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Vstupenky</span>
+                        </a>
                     </div>
-                    <button id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider"
-                        class="shadow-lg shadow-blue-600/100 mx-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                        type="button">Klub <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 1 4 4 4-4" />
-                        </svg>
-                    </button>
-
-                    <!-- Dropdown menu -->
-                    <div id="dropdownDivider"
-                        class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
-                            aria-labelledby="dropdownDividerButton">
-                            <li>
-                                <a href="./klub/informace.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Informace
-                                    a kontakty</a>
-                            </li>
-                            <li>
-                                <a href="./klub/klubLegend.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Klub
-                                    legend</a>
-                            </li>
-                            <li>
-                                <a href="./klub/logoManual.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Logo
-                                    manuál</a>
-                            </li>
-                            <li>
-                                <a href="./klub/media.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Média</a>
-                            </li>
-                            <li>
-                                <a href="./klub/historie.html"
-                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Historie</a>
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </div>
-                <div class="pt-6"></div>
-                <div class="order-2 md:order-3">
-                    <a href="./vstupenky/vstupenky.html" target="_blank"
-                        class="mx-5  px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-white rounded-full flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z"
-                                clip-rule="evenodd"></path>
-                        </svg>
-                        <span>Vstupenky</span>
-                    </a>
-                </div>
-            </div>
             </div>
         </nav>
     </header>
@@ -216,299 +218,343 @@
                 </path>
             </g>
         </svg></span>
-    <section>
-        <div class="w-100 mx-auto px-6 sm:max-w-2xl md:max-w-3xl md:px-12 lg:max-w-5xl xl:max-w-7xl xl:px-32  ">
-            <div class="text-center">
-                <div class="block rounded-lg backdrop-blur-sm bg-slate-200/70 dark:bg-slate-700/70 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,15%,0.8)] dark:shadow-black/20 md:py-16 md:px-12"
-                    style="
+    <main>
+        <section>
+            <div class="w-100 mx-auto px-6 sm:max-w-2xl md:max-w-3xl md:px-12 lg:max-w-5xl xl:max-w-7xl xl:px-32  ">
+                <div class="text-center">
+                    <div class="block rounded-lg backdrop-blur-sm bg-slate-200/70 dark:bg-slate-700/70 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,15%,0.8)] dark:shadow-black/20 md:py-16 md:px-12"
+                        style="
  margin-top: 180px;
         backdrop-filter: saturate(200%) blur(25px);
         ">
-                    <h1
-                        class="mt-6 mb-12 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl bg-gradient-to-r from-cyan-400 to-purple-700 bg-clip-text text-transparent">
-                        HC Bílí tygři Liberec<br /><span class="text-black dark:text-white">Tým s velkou historií
-                        </span></h1>
-                    <p class="text-center text-black dark:text-white mb-12 text-2xl ">Nikdo není větší než tým</p><a
-                        class="mb-2 hover:-translate-y-2 ease-out duration-2000 inline-block rounded bg-gray-900 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal  text-white dark:text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-800 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
-                        data-te-ripple-init data-te-ripple-color="light" href="https://fanshop.hcbilitygri.cz/"
-                        role="button">Fanshop</a>
+                        <article>
+                            <h1
+                                class="mt-6 mb-12 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl bg-gradient-to-r from-cyan-400 to-purple-700 bg-clip-text text-transparent">
+                                HC Bílí tygři Liberec<br /><span class="text-black dark:text-white">Tým s velkou
+                                    historií
+                                </span></h1>
+                            <p class="text-center text-black dark:text-white mb-12 text-2xl ">Nikdo není větší než tým
+                            </p><a
+                                class="mb-2 hover:-translate-y-2 ease-out duration-2000 inline-block rounded bg-gray-900 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal  text-white dark:text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-800 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
+                                data-te-ripple-init data-te-ripple-color="light" href="https://fanshop.hcbilitygri.cz/"
+                                role="button">Fanshop</a>
+                        </article>
+                    </div>
                 </div>
             </div>
-        </div>
 
 
-    </section>
+        </section>
 
-    <div class="h-48"></div>
+        <div class="h-48"></div>
 
-    <section class="flex justify-center items-center grid">
+        <section class="flex justify-center items-center grid">
 
-        <div
-            class="backdrop-blur-sm bg-slate-200/60 dark:bg-slate-700/60 p-6 md:p-12 rounded-lg hover:-translate-y-2 ease-out duration-300">
+            <div
+                class="backdrop-blur-sm bg-slate-200/60 dark:bg-slate-700/60 p-6 md:p-12 rounded-lg hover:-translate-y-2 ease-out duration-300">
+                <article>
+                    <p
+                        class="w-full text-2xl md:text-3xl font-semibold leading-normal text-center text-gray-900 dark:text-white max-h-24">
+                        Nejžhavější Zprávy!
+                    </p>
 
-            <p
-                class="w-full text-2xl md:text-3xl font-semibold leading-normal text-center text-gray-900 dark:text-white max-h-24">
-                Nejžhavější Zprávy!
-            </p>
+                    <p class="text-center text-neutral-500 dark:text-neutral-400 w-11/12 md:w-5/6 m-auto">
+                        Chcete si prohlédnout aktuální zprávy z Libereckého hokeje? <a href="#news"
+                            class="text-text-sky-600 dark:text-sky-300 hover:underline">Tady je najdete</a>
 
-            <p class="text-center text-neutral-500 dark:text-neutral-400 w-11/12 md:w-5/6 m-auto">
-                Chcete si prohlédnout aktuální zprávy z Libereckého hokeje? <a href="#news"
-                    class="text-text-sky-600 dark:text-sky-300 hover:underline">Tady je najdete</a>
+                        Přejeme vám příjemné čtení toho nejlepšího! <span
+                            class="text-zinc-500 dark:text-zinc-400"></span>
+                    </p>
+                </article>
+            </div>
 
-                Přejeme vám příjemné čtení toho nejlepšího! <span class="text-zinc-500 dark:text-zinc-400"></span>
-            </p>
+        </section>
 
-        </div>
-
-    </section>
-
-    <div class="h-24"></div>
+        <div class="h-24"></div>
 
 
-    <section class="bg-transparent" id="about">
-        <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-                <div class="max-w-lg">
-                    <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
-                        Největší úspěch</h2>
-                    <div class="justify">
-                        <div class="mt-4 text-gray-600 dark:text-white text-lg ">
+        <section class="bg-transparent" id="about">
+            <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+                    <div class="max-w-lg">
+                        <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
+                            Největší úspěch</h2>
+                        <div class="justify">
+                            <div class="mt-4 text-gray-600 dark:text-white text-lg ">
+                                <article>
+                                    Kromě pozice hlavního kouče zaujal Pešán také roli sportovního ředitele, což byla
+                                    zcela nově
+                                    vytvořená funkce, a brzy začal úřadovat.
 
-                            Kromě pozice hlavního kouče zaujal Pešán také roli sportovního ředitele, což byla zcela nově
-                            vytvořená funkce, a brzy začal úřadovat.
-
-                            <div class="my-2"></div>
-                            Už na startu přípravy se tým dočkal dvou velmi zvučných
-                            posil, do Liberce zamířili velezkušení Michal Birner a Michal Řepík.
-                            <div class="my-2"></div>
-                            K nim se navíc později
-                            přidal také Martin Ševc, jejich bývalý spoluhráč ze Lva Praha, který se pyšnil zkušenostmi z
-                            mnoha finálových účastí v soutěžích po celé Evropě.
-                            <div class="my-2"></div>
-                            Kromě nich posílil tým také Jan Stránský.
-                            Změnou byl i samotný způsob přípravy. Bílí Tygři angažovali kondičního kouče Aleše Pařeze,
-                            který
-                            zavedl řadu novot.
-                            <div class="my-2"></div>
-                            Mimo jiné se poprvé postavili na led už v černu, krom toho Tygři trénovali
-                            jednofázově a intenzivně, což mělo více odpovídat vytížení hokejistů v ostrých zápasech. Jak
-                            se
-                            ukázalo, také tato změna mužstvu velmi prospěla, i ve vyřazovacích bojích měli hráči plno
-                            sil.
-                            <div class="my-2"></div>
-                            Bílí Tygři mohli vůbec poprvé v historii zvednout nad hlavu Masarykův pohár pro mistry
-                            Tipsport
-                            extraligy ledního hokeje. Následovalo také holení vousu kapitána Jana Výtiska, který svou
-                            chloubu prohrál v sázce, a bouřlivé přivítání finálových hrdinů v liberecké Home Credit
-                            Areně.
+                                    <div class="my-2"></div>
+                                    Už na startu přípravy se tým dočkal dvou velmi zvučných
+                                    posil, do Liberce zamířili velezkušení Michal Birner a Michal Řepík.
+                                    <div class="my-2"></div>
+                                    K nim se navíc později
+                                    přidal také Martin Ševc, jejich bývalý spoluhráč ze Lva Praha, který se pyšnil
+                                    zkušenostmi z
+                                    mnoha finálových účastí v soutěžích po celé Evropě.
+                                    <div class="my-2"></div>
+                                    Kromě nich posílil tým také Jan Stránský.
+                                    Změnou byl i samotný způsob přípravy. Bílí Tygři angažovali kondičního kouče Aleše
+                                    Pařeze,
+                                    který
+                                    zavedl řadu novot.
+                                    <div class="my-2"></div>
+                                    Mimo jiné se poprvé postavili na led už v černu, krom toho Tygři trénovali
+                                    jednofázově a intenzivně, což mělo více odpovídat vytížení hokejistů v ostrých
+                                    zápasech. Jak
+                                    se
+                                    ukázalo, také tato změna mužstvu velmi prospěla, i ve vyřazovacích bojích měli hráči
+                                    plno
+                                    sil.
+                                    <div class="my-2"></div>
+                                    Bílí Tygři mohli vůbec poprvé v historii zvednout nad hlavu Masarykův pohár pro
+                                    mistry
+                                    Tipsport
+                                    extraligy ledního hokeje. Následovalo také holení vousu kapitána Jana Výtiska, který
+                                    svou
+                                    chloubu prohrál v sázce, a bouřlivé přivítání finálových hrdinů v liberecké Home
+                                    Credit
+                                    Areně.
+                                </article>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="mt-12 md:mt-0 hover:rotate-6 ease-out duration-300 "><img
-                        src="./img/news/news-knot-odchod.jpg" alt="uspech" class="object-cover rounded-lg shadow-md">
+                    <div class="mt-12 md:mt-0 hover:rotate-6 ease-out duration-300 "><img
+                            src="./img/news/news-knot-odchod.jpg" alt="uspech"
+                            class="object-cover rounded-lg shadow-md">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <div class="parallax"></div>
-    <div id="news">
-        <div class="container my-24 mx-auto md:px-6">
-            <section class="mb-32 text-center">
-                <h2 class="mb-20 text-3xl font-bold text-black dark:text-white">
-                    Žhavé zprávy</h2>
-                <div class="grid lg:grid-cols-3 lg:gap-x-12">
-
-                    <div class="mb-12 lg:mb-0">
-                        <div
-                            class="block h-full rounded-lg bg-slate-200 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-slate-700 hover:-translate-y-4 ease-out duration-300">
-                            <div class="flex justify-center">
+        </section>
+        <div class="parallax"></div>
+        <div id="news">
+            <div class="container my-24 mx-auto md:px-6">
+                <section class="mb-32 text-center">
+                    <h2 class="mb-20 text-3xl font-bold text-black dark:text-white">
+                        Žhavé zprávy</h2>
+                    <div class="grid lg:grid-cols-3 lg:gap-x-12">
+                        <article>
+                            <div class="mb-12 lg:mb-0">
                                 <div
-                                    class="-mt-8 backdrop-blur-lg inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
-                                    <span class="hokejka h-7 w-7 text-neutral-800 dark:text-neutral-200">
-                                    </span>
+                                    class="block h-full rounded-lg bg-slate-200 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-slate-700 hover:-translate-y-4 ease-out duration-300">
+                                    <div class="flex justify-center">
+                                        <div
+                                            class="-mt-8 backdrop-blur-lg inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
+                                            <span class="hokejka h-7 w-7 text-neutral-800 dark:text-neutral-200">
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-6">
+                                        <h5 class="mb-4 text-lg font-semibold text-neutral-800 dark:text-neutral-100">
+                                            VYRAZTE V NEDĚLI NA DEN DĚTÍ VE VRATISLAVICÍCH!
+                                        </h5>
+                                        <div class="mt-12 md:mt-0 hover:rotate- ease-out duration-300"><img
+                                                src="./img/news/news-den-deti.jfif" alt="uspech"
+                                                class="object-cover rounded-lg ">
+                                        </div>
+                                        <div class=" text-xl font-medium dark:text-neutral-200 mx-0 px-0 mt-5 justify">
+                                            Liberec - Hledáte se svými dětmi program na neděli 2. června? Vyrazte do
+                                            Vratislavic
+                                            nad
+                                            Nisou, kde se můžete těšit na Den dětí plný zábavy. A chybět u toho nebudou
+                                            ani Bílí
+                                            Tygři.
+                                        </div>
+                                        <div class="text-neutral-600 dark:text-neutral-200 mx-0 px-0 mt-5 justify">
+                                            <div class="my-4"></div>
+                                            14:00 - start CESTY MEZI POHÁDKAMI (v lokalitě mezi zámeckým parkem a
+                                            lesoparkem)
+                                            -> Přibližně 2 km dlouhá vycházková trasa je sjízdná i kočárkem a čítá
+                                            celkem 9
+                                            zastavení.
+                                            <div class="my-2"></div>
+                                            14:00 - nafukovadla, malování na obličej, jízda na ponících
+                                            <div class="my-2"></div>
+                                            14:00 - otevřena půjčovna dětských kol a odrážedel v cykloareálu VAPARK
+                                            -> Přichystány soutěže pro děti na puptracku s North Bike Club a Cycology.
+                                            <div class="my-2"></div>
+                                            14:30 - vystoupení Akademie sportu Liberec (pódium v zámeckém parku)
+                                            <div class="my-2"></div>
+                                            16:00 - koncert hudebního uskupení KAROL A KVÍDO (pódium v zámeckém parku)
+                                        </div>
+
+                                    </div>
+
                                 </div>
                             </div>
-                            <div class="p-6">
-                                <h5 class="mb-4 text-lg font-semibold text-neutral-800 dark:text-neutral-100">
-                                    VYRAZTE V NEDĚLI NA DEN DĚTÍ VE VRATISLAVICÍCH!
-                                </h5>
-                                <div class="mt-12 md:mt-0 hover:rotate- ease-out duration-300"><img
-                                        src="./img/news/news-den-deti.jfif" alt="uspech"
-                                        class="object-cover rounded-lg ">
-                                </div>
-                                <div class=" text-xl font-medium dark:text-neutral-200 mx-0 px-0 mt-5 justify">
-                                    Liberec - Hledáte se svými dětmi program na neděli 2. června? Vyrazte do Vratislavic
-                                    nad
-                                    Nisou, kde se můžete těšit na Den dětí plný zábavy. A chybět u toho nebudou ani Bílí
-                                    Tygři.
-                                </div>
-                                <div class="text-neutral-600 dark:text-neutral-200 mx-0 px-0 mt-5 justify">
-                                    <div class="my-4"></div>
-                                    14:00 - start CESTY MEZI POHÁDKAMI (v lokalitě mezi zámeckým parkem a lesoparkem)
-                                    -> Přibližně 2 km dlouhá vycházková trasa je sjízdná i kočárkem a čítá celkem 9
-                                    zastavení.
-                                    <div class="my-2"></div>
-                                    14:00 - nafukovadla, malování na obličej, jízda na ponících
-                                    <div class="my-2"></div>
-                                    14:00 - otevřena půjčovna dětských kol a odrážedel v cykloareálu VAPARK
-                                    -> Přichystány soutěže pro děti na puptracku s North Bike Club a Cycology.
-                                    <div class="my-2"></div>
-                                    14:30 - vystoupení Akademie sportu Liberec (pódium v zámeckém parku)
-                                    <div class="my-2"></div>
-                                    16:00 - koncert hudebního uskupení KAROL A KVÍDO (pódium v zámeckém parku)
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="mb-12 lg:mb-0">
-                        <div
-                            class="block h-full rounded-lg bg-slate-200 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-slate-700 hover:-translate-y-4 ease-out duration-300">
-                            <div class="flex justify-center">
+                        </article>
+                        <article>
+                            <div class="mb-12 lg:mb-0">
                                 <div
-                                    class="-mt-8 backdrop-blur-lg inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
-                                    <span class="zlata-medaile h-7 w-7 text-neutral-800 dark:text-neutral-200">
-                                    </span>
+                                    class="block h-full rounded-lg bg-slate-200 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-slate-700 hover:-translate-y-4 ease-out duration-300">
+                                    <div class="flex justify-center">
+                                        <div
+                                            class="-mt-8 backdrop-blur-lg inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
+                                            <span class="zlata-medaile h-7 w-7 text-neutral-800 dark:text-neutral-200">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="p-6">
+                                        <h5 class="mb-4 text-lg font-semibold text-neutral-800 dark:text-neutral-100">
+                                            ČEŠI PO 14 LETECH MISTRY SVĚTA! V TÝMU I NĚKOLIK TYGŘÍCH STOP
+                                        </h5>
+                                        <div class="mt-12 md:mt-0 hover:rotate- ease-out duration-300"><img
+                                                src="./img/news/news-ms-2024.jfif" alt="uspech"
+                                                class="object-cover rounded-lg ">
+                                        </div>
+                                        <div class=" text-xl font-medium dark:text-neutral-200 mx-0 px-0 mt-5 justify">
+                                            Praha/Liberec – Po dlouhém čtrnáctiletém čekání jsou čeští hokejisté mistři
+                                            světa!
+                                            Rozhodla o tom výhra 2:0 nad Švýcarskem v nedělním pražském finále. Mezi
+                                            hráči i
+                                            členy
+                                            realizačního týmu najdeme i několik bývalých Tygrů a jednoho současného.
+                                        </div>
+                                        <div class="text-neutral-600 dark:text-neutral-200 mx-0 px-0 mt-5 justify">
+                                            <div class="my-4"></div>
+                                            Výraznou postavou na zlaté cestě byl útočník <strong>Pavel ZACHA</strong>,
+                                            jenž
+                                            působil
+                                            v Liberci v
+                                            letech 2010-2014. Pod Ještěd zavítal už v mladším dorostu a před odchodem do
+                                            zámoří
+                                            odehrál v pouhých šestnácti letech plnohodnotnou sezónu za „A“ tým. Na
+                                            šampionát
+                                            dorazil
+                                            až na poslední utkání základní skupiny, do té doby bojoval s Bostonem v
+                                            play-off
+                                            NHL.
+                                            Jeho největší moment přišel ve čtvrtfinále s USA, v němž byl autorem jediné,
+                                            a tedy
+                                            vítězné branky zápasu
+                                            <div class="my-2"></div>
+                                            Součástí původní nominace byl i <strong>Radan LENC</strong>, jehož tříleté
+                                            angažmá
+                                            na
+                                            severu Čech
+                                            vyšvihlo až do zahraničí. Kvůli příjezdu hokejistů ze zámoří nakonec nebyl
+                                            zapsán na
+                                            soupisku. S mužstvem však zůstal až do konce turnaje a i on obdržel na krk
+                                            zlatou
+                                            medaili.
+
+                                        </div>
+
+                                    </div>
+
                                 </div>
                             </div>
-                            <div class="p-6">
-                                <h5 class="mb-4 text-lg font-semibold text-neutral-800 dark:text-neutral-100">
-                                    ČEŠI PO 14 LETECH MISTRY SVĚTA! V TÝMU I NĚKOLIK TYGŘÍCH STOP
-                                </h5>
-                                <div class="mt-12 md:mt-0 hover:rotate- ease-out duration-300"><img
-                                        src="./img/news/news-ms-2024.jfif" alt="uspech"
-                                        class="object-cover rounded-lg ">
-                                </div>
-                                <div class=" text-xl font-medium dark:text-neutral-200 mx-0 px-0 mt-5 justify">
-                                    Praha/Liberec – Po dlouhém čtrnáctiletém čekání jsou čeští hokejisté mistři světa!
-                                    Rozhodla o tom výhra 2:0 nad Švýcarskem v nedělním pražském finále. Mezi hráči i
-                                    členy
-                                    realizačního týmu najdeme i několik bývalých Tygrů a jednoho současného.
-                                </div>
-                                <div class="text-neutral-600 dark:text-neutral-200 mx-0 px-0 mt-5 justify">
-                                    <div class="my-4"></div>
-                                    Výraznou postavou na zlaté cestě byl útočník <strong>Pavel ZACHA</strong>, jenž
-                                    působil
-                                    v Liberci v
-                                    letech 2010-2014. Pod Ještěd zavítal už v mladším dorostu a před odchodem do zámoří
-                                    odehrál v pouhých šestnácti letech plnohodnotnou sezónu za „A“ tým. Na šampionát
-                                    dorazil
-                                    až na poslední utkání základní skupiny, do té doby bojoval s Bostonem v play-off
-                                    NHL.
-                                    Jeho největší moment přišel ve čtvrtfinále s USA, v němž byl autorem jediné, a tedy
-                                    vítězné branky zápasu
-                                    <div class="my-2"></div>
-                                    Součástí původní nominace byl i <strong>Radan LENC</strong>, jehož tříleté angažmá
-                                    na
-                                    severu Čech
-                                    vyšvihlo až do zahraničí. Kvůli příjezdu hokejistů ze zámoří nakonec nebyl zapsán na
-                                    soupisku. S mužstvem však zůstal až do konce turnaje a i on obdržel na krk zlatou
-                                    medaili.
-
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="mb-12 lg:mb-0">
-                        <div
-                            class="block h-full rounded-lg bg-slate-200 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-slate-700 hover:-translate-y-4 ease-out duration-300">
-                            <div class="flex justify-center">
+                        </article>
+                        <article>
+                            <div class="mb-12 lg:mb-0">
                                 <div
-                                    class="-mt-8 backdrop-blur-lg inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
-                                    <span class="hokejka h-7 w-7 text-neutral-800 dark:text-neutral-200">
-                                    </span>
+                                    class="block h-full rounded-lg bg-slate-200 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-slate-700 hover:-translate-y-4 ease-out duration-300">
+                                    <div class="flex justify-center">
+                                        <div
+                                            class="-mt-8 backdrop-blur-lg inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
+                                            <span class="hokejka h-7 w-7 text-neutral-800 dark:text-neutral-200">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="p-6">
+                                        <h5 class="mb-4 text-lg font-semibold text-neutral-800 dark:text-neutral-100">
+                                            NAVRÁTILEC ADAM MUSIL: CÍTÍM SE TU JAKO DOMA. CHCI BÝT HLAVNĚ PROSPĚŠNÝ TÝMU
+                                        </h5>
+                                        <div class="mt-12 md:mt-0 hover:rotate- ease-out duration-300"><img
+                                                src="./img/news/news-musil-adam.jfif" alt="uspech"
+                                                class="object-cover rounded-lg ">
+                                        </div>
+                                        <div class=" text-xl font-medium dark:text-neutral-200 mx-0 px-0 mt-5 justify">
+                                            Jaké jsou bezprostřední pocity po návratu?
+                                        </div>
+                                        <div class="text-neutral-600 dark:text-neutral-200 mx-0 px-0 mt-5 justify">
+                                            <div class="my-4"></div>
+                                            Je to skvělé, cítím se tu jako doma. Znám tady spoustu lidí, které jsem
+                                            znovu po
+                                            nějaké době rád viděl. Těším se zpátky do práce.
+
+                                        </div>
+                                        <div class=" text-xl font-medium dark:text-neutral-200 mx-0 px-0 mt-5 justify">
+                                            Jak se vlastně zrodil tvůj přestup?
+                                        </div>
+                                        <div class="text-neutral-600 dark:text-neutral-200 mx-0 px-0 mt-5 justify">
+
+                                            V Pardubicích mi končila smlouva a já jsem si vybíral nové působiště.
+                                            Liberec o mě
+                                            projevil zájem, za což jsem byl hrozně rád. Rychle jsme se domluvili a jsem
+                                            tady.
+                                        </div>
+
+                                        <div class=" text-xl font-medium dark:text-neutral-200 mx-0 px-0 mt-5 justify">
+                                            Co očekáváš od staronového angažmá?
+
+                                        </div>
+                                        <div class="text-neutral-600 dark:text-neutral-200 mx-0 px-0 mt-5 justify">
+                                            Chci se vrátit ke své hře. Je tu skvěle vybudovaná kultura, chci do toho
+                                            zapadnout a
+                                            přidat svou část díla. Chci být hlavně prospěšný pro tým, ať už to bude na
+                                            centru,
+                                            nebo třeba na křídle.
+                                        </div>
+
+                                        <div class=" text-xl font-medium dark:text-neutral-200 mx-0 px-0 mt-5 justify">
+                                            Vracíš se po třech letech. Změnilo se během této doby u Tygrů něco?
+
+
+                                        </div>
+                                        <div class="text-neutral-600 dark:text-neutral-200 mx-0 px-0 mt-5 justify">
+                                            Když jsem proti Liberci hrál za Dynamo, tak to byl přesně ten liberecký
+                                            hokej, který
+                                            si pamatuji. Z kluků vyzařovala velká energie, rychle bruslili. Byl to
+                                            určitě
+                                            nepříjemný soupeř, ale ty zápasy mě bavily.
+
+
+                                        </div>
+
+
+
+
+
+
+                                    </div>
+
                                 </div>
                             </div>
-                            <div class="p-6">
-                                <h5 class="mb-4 text-lg font-semibold text-neutral-800 dark:text-neutral-100">
-                                    NAVRÁTILEC ADAM MUSIL: CÍTÍM SE TU JAKO DOMA. CHCI BÝT HLAVNĚ PROSPĚŠNÝ TÝMU
-                                </h5>
-                                <div class="mt-12 md:mt-0 hover:rotate- ease-out duration-300"><img
-                                        src="./img/news/news-musil-adam.jfif" alt="uspech"
-                                        class="object-cover rounded-lg ">
-                                </div>
-                                <div class=" text-xl font-medium dark:text-neutral-200 mx-0 px-0 mt-5 justify">
-                                    Jaké jsou bezprostřední pocity po návratu?
-                                </div>
-                                <div class="text-neutral-600 dark:text-neutral-200 mx-0 px-0 mt-5 justify">
-                                    <div class="my-4"></div>
-                                    Je to skvělé, cítím se tu jako doma. Znám tady spoustu lidí, které jsem znovu po
-                                    nějaké době rád viděl. Těším se zpátky do práce.
-
-                                </div>
-                                <div class=" text-xl font-medium dark:text-neutral-200 mx-0 px-0 mt-5 justify">
-                                    Jak se vlastně zrodil tvůj přestup?
-                                </div>
-                                <div class="text-neutral-600 dark:text-neutral-200 mx-0 px-0 mt-5 justify">
-
-                                    V Pardubicích mi končila smlouva a já jsem si vybíral nové působiště. Liberec o mě
-                                    projevil zájem, za což jsem byl hrozně rád. Rychle jsme se domluvili a jsem tady.
-                                </div>
-
-                                <div class=" text-xl font-medium dark:text-neutral-200 mx-0 px-0 mt-5 justify">
-                                    Co očekáváš od staronového angažmá?
-
-                                </div>
-                                <div class="text-neutral-600 dark:text-neutral-200 mx-0 px-0 mt-5 justify">
-                                    Chci se vrátit ke své hře. Je tu skvěle vybudovaná kultura, chci do toho zapadnout a
-                                    přidat svou část díla. Chci být hlavně prospěšný pro tým, ať už to bude na centru,
-                                    nebo třeba na křídle.
-                                </div>
-
-                                <div class=" text-xl font-medium dark:text-neutral-200 mx-0 px-0 mt-5 justify">
-                                    Vracíš se po třech letech. Změnilo se během této doby u Tygrů něco?
+                            </article>
 
 
-                                </div>
-                                <div class="text-neutral-600 dark:text-neutral-200 mx-0 px-0 mt-5 justify">
-                                    Když jsem proti Liberci hrál za Dynamo, tak to byl přesně ten liberecký hokej, který
-                                    si pamatuji. Z kluků vyzařovala velká energie, rychle bruslili. Byl to určitě
-                                    nepříjemný soupeř, ale ty zápasy mě bavily.
-
-
-                                </div>
-
-
-
-
-
-
-                            </div>
-
-                        </div>
                     </div>
 
+                    <section>
 
-
-                </div>
-                <section>
-
-                    <div class="text-center">
-                        <div class="block rounded-lg backdrop-blur-sm bg-slate-200/70 dark:bg-slate-700/70 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,15%,0.8)] dark:shadow-black/20 md:py-16 md:px-12"
-                            style="
+                        <div class="text-center">
+                            <div class="block rounded-lg backdrop-blur-sm bg-slate-200/70 dark:bg-slate-700/70 px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,15%,0.8)] dark:shadow-black/20 md:py-16 md:px-12"
+                                style="
                                 margin-top: 100px;
                                 backdrop-filter: saturate(200%) blur(25px);
                         ">
 
-                            <a class="place-content-center mb-2 hover:-translate-y-2 ease-out duration-2000 inline-block rounded bg-gray-900 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal  text-white dark:text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-800 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
-                                data-te-ripple-init data-te-ripple-color="light" href="#" role="button">Víc už tu
-                                není... Zpátky
-                                na horu</a>
+                                <a class="place-content-center mb-2 hover:-translate-y-2 ease-out duration-2000 inline-block rounded bg-gray-900 px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal  text-white dark:text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-800 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
+                                    data-te-ripple-init data-te-ripple-color="light" href="#" role="button">Víc už tu
+                                    není... Zpátky
+                                    na horu</a>
+
+                            </div>
 
                         </div>
 
-                    </div>
 
-
+                    </section>
                 </section>
-            </section>
 
+            </div>
         </div>
-    </div>
+    </main>
     <footer class="bg-slate-200 rounded-md shadow dark:bg-slate-950 m-4">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between"><a href="#"
