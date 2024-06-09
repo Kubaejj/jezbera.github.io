@@ -4,6 +4,3 @@ Odkaz na github pages:  kubaejj.github.io/jezbera.github.io/src/
 
 
 
-
-Informace dat article
-alt udelany i indexu a skoro vstupenky
