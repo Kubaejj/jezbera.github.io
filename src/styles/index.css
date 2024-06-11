@@ -3,11 +3,11 @@
 html{
     scroll-behavior: smooth;
   
-
-
 }
 
-
+:root {
+  scroll-behavior: smooth;
+}
 
 
 .justify {
